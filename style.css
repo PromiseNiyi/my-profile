@@ -1,0 +1,612 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+
+
+}
+
+label.mainlogo {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 60px;
+    font-weight: bold;
+
+}
+
+span {
+    color: #e03030;
+}
+
+nav ul {
+    float: right;
+    margin-right: 50px;
+    font-size: 10px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 6px 10px;
+}
+
+a.active,
+a:hover {
+    background: #e03030;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.intro {
+    height: 100vh;
+    width: 100%;
+
+    background: url(images/background1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0 0 0;
+
+
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+
+    color: White;
+
+}
+
+h1 {
+    color: white;
+    margin: 0 0 1px;
+    margin-bottom: 1px;
+    font-size: 70px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #f3cf00;
+}
+
+h4 {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+h4.job {
+    background-color: #e03030;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin-right: 150px;
+}
+
+.about {
+    background-color: #0e0d0d;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.about img {
+    height: auto;
+    width: 400px;
+}
+
+.abouttext {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.abouttext h2 {
+    color: white;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: -10px;
+
+}
+
+.abouttext h3 {
+    color: white;
+    letter-spacing: 4px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 100px;
+    margin-bottom: 10px;
+
+}
+
+.abouttext p {
+    color: white;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+
+.btn {
+    background-color: #e03030;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 13px 30px;
+    border: transparent;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn a {
+    color: white;
+}
+
+a .btn :hover {
+    color: #e03030;
+    background: none;
+}
+
+.btn:hover {
+    color: #e03030;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+.services {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: white;
+    font-size: 55px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.cards {
+    height: 365px;
+    width: 335px;
+    padding: 30px 30px 65px 30px;
+    background: #0c0c0c83;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.cards i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #e03030;
+
+}
+
+
+.cards h5 {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 14px;
+    font-weight: 100px;
+    letter-spacing: 5px;
+}
+
+
+
+.pra p {
+    color: white;
+    font-size: 10px;
+    line-height: 15px;
+
+}
+
+.pics {
+    background: rgb(27, 27, 27);
+    width: 100%;
+    padding: 20px 0px 0 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    overflow: hidden;
+    padding: 20px 0 0 0;
+}
+
+.gallery img {
+    height: 100%;
+    width: 300px;
+}
+
+.allpics h2 {
+    color: white;
+    font-size: 55px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.contact {
+    background: rgb(187, 36, 36);
+    width: 100%;
+    padding: 100px 0px 50px 0;
+    align-items: center;
+    align-content: center;
+}
+
+.reach h2 {
+    color: white;
+    font-size: 55px;
+    width: 1130px;
+    margin: 10px auto;
+    text-align: center;
+
+    overflow: hidden;
+}
+
+.contact p {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 10pt;
+}
+
+button {
+    background-color: #ffffff;
+    color: #e03030;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 13px 30px;
+    border: transparent;
+    border-radius: 5px;
+    transition: .5s;
+
+
+}
+
+.contact a {
+    color: #e03030;
+    align-content: center;
+}
+
+.contact a:hover {
+    color: #ffffff;
+    background: none;
+}
+
+.contact button:hover {
+    color: #ffffff;
+    background: none;
+    cursor: pointer;
+    border: 2px #ffffff solid;
+    transition: .5s;
+}
+
+.buttonalign {
+    align-items: center;
+    padding: 0 45% 0 45%;
+    align-content: center;
+}
+
+
+
+
+
+@media (max-width:952px) {
+    label.mainlogo {
+        font-size: 25px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 10px;
+    }
+
+    h1 {
+        color: white;
+        margin: 0 0 1px;
+        margin-bottom: 1px;
+        font-size: 50px;
+        font-weight: lighter;
+        text-transform: uppercase;
+    }
+
+    .about {
+        background-color: #0e0d0d;
+        width: 100%;
+        padding: 100px 30px 100px 30px;
+    }
+
+    .about img {
+        height: auto;
+        width: 200px;
+    }
+
+    .abouttext {
+        width: 250px;
+    }
+
+    .abouttext h2 {
+        color: white;
+        font-size: 35px;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+
+    }
+
+    .abouttext h3 {
+        color: white;
+        letter-spacing: 4px;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 100px;
+        margin-bottom: 10px;
+
+    }
+
+    .abouttext p {
+        color: white;
+        line-height: 24px;
+        font-size: 12px;
+        margin-bottom: 45px;
+        text-align: justify;
+    }
+
+    .services {
+        background: rgb(0, 0, 0);
+        width: 100%;
+        padding: 80px 10px;
+    }
+
+    .title h2 {
+        color: white;
+        font-size: 35px;
+        width: auto;
+        margin: 30px 35px 10px 35px;
+        text-align: center;
+
+
+
+    }
+
+    .gallery {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+        overflow: hidden;
+        padding: 20px auto 0 auto;
+        width: auto;
+        margin-left: 100px;
+    }
+
+    .gallery img {
+        height: 100%;
+        width: 300px;
+    }
+
+    .allpics h2 {
+        color: white;
+        font-size: 35px;
+        width: auto;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .contact {
+        background: rgb(187, 36, 36);
+        width: 100%;
+        padding: 100px 0px 50px 0;
+        align-items: center;
+        align-content: center;
+    }
+
+    .reach h2 {
+        color: white;
+        font-size: 35px;
+        width: auto;
+        margin: 10px auto;
+        text-align: center;
+
+        overflow: hidden;
+    }
+
+    button {
+        background-color: #ffffff;
+        color: #e03030;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 13px 60px;
+        border: transparent;
+        border-radius: 5px;
+        transition: .5s;
+
+
+    }
+
+    .buttonalign {
+        align-items: center;
+        padding: 0 300px 0 300px;
+        align-content: center;
+        width: auto;
+    }
+}
+
+@media (max-width:500px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background: #0e0d0d;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 50px;
+
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a.active,
+    a:hover {
+        background: none;
+        color: #e03030;
+        font-size: 22px;
+    }
+
+    #check:checked~ul {
+        left: 0;
+
+    }
+
+    .buttonalign {
+        align-items: center;
+        padding: 0 150px 0 150px;
+        align-content: center;
+        width: auto;
+    }
+
+    .abouttext h2 {
+        color: white;
+        font-size: 35px;
+        text-transform: capitalize;
+        margin-bottom: 5px;
+        margin-left: 30%;
+
+    }
+
+    .abouttext h3 {
+        color: white;
+        letter-spacing: 4px;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: 100px;
+        margin-bottom: 10px;
+        margin-left: 25%;
+
+    }
+
+    .box {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        min-height: 400px;
+        width: auto;
+        padding-left: 10%;
+    }
+
+    .about {
+        background-color: #0e0d0d;
+
+        padding: 100px 30px 100px 30px;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .about img {
+        height: auto;
+        width: 200px;
+        margin-left: 28%;
+    }
+
+    .abouttext {
+        width: 450px;
+        padding: 0 20px 0 0px;
+    }
+
+    .main {
+        width: auto;
+        max-width: 95%;
+        margin: 0 auto;
+        display: inline;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cards {
+        height: 365px;
+        width: 335px;
+        padding: 30px 30px 65px 30px;
+        background: #0c0c0c83;
+        border-radius: 20px;
+        margin: 15px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+
+    }
+}
